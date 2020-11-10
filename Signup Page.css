@@ -1,0 +1,169 @@
+body{
+
+}
+p{
+	color: grey;
+	font-size: small;
+}
+hr{
+	width: 95%;
+	color: grey;
+	background-color: grey;
+	height: 1px;
+	border-width: 0;
+}
+
+#box {
+  align-items: center;
+  background-color: lightblue;
+  width: 90%;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+  box-sizing: border-box;
+  padding: 20px 20px 35px 20px; 
+}
+
+.center {
+  margin: auto;
+  width: 45%;
+  border: none;
+  padding-top: 50px;
+ /* padding-left: auto;
+  padding-top: 50px;*/
+}
+
+.name{
+	width: 45%;
+	border-radius: 5px;
+	padding: 12px 15px;
+  	margin: 8px 0;
+  	box-sizing: border-box;
+  	border: 3px solid grey;
+  	-webkit-transition: 0.5s;
+  	transition: 0.5s;
+  	outline: none;
+}
+
+.other{
+	width: 90%;
+	border-radius: 5px;
+	padding: 12px 20px;
+  	margin: 8px 0;
+  	box-sizing: border-box;
+  	border: 3px solid grey;
+  	-webkit-transition: 0.5s;
+  	transition: 0.5s;
+  	outline: none;
+}
+.titles{
+	color: grey;
+	font-size: medium;
+}
+
+.date{
+	width: 80%;
+	border-radius: 5px;
+	padding: 5px 10px;
+	margin: 2px 5px 10px;
+	box-sizing: border-box;
+	border: 3px solid grey;
+	transition: 0.5s;
+	outline: none;
+}
+.gender{
+	display: inline-block;
+	text-align:center; 
+	width: 20%;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 2px 10px 1px;
+	margin: 2px 10px 5px;
+}
+.gender label{
+	float: left;
+	padding: 2px;
+}
+.gender input{
+	float: right;
+	padding: auto;
+}
+
+/*---------------close button----------
+
+.close {
+  block: inline-block;
+  width: 32px;
+  height: 32px;
+  opacity: 0.3;
+}
+.close:hover {
+  opacity: 1;
+}
+.close:before, .close:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 33px;
+  width: 2px;
+  background-color: #333;
+}
+.close:before {
+  transform: rotate(45deg);
+}
+.close:after {
+  transform: rotate(-45deg);
+}
+
+/*--------------close button ends here-----------*/
+
+/*-----------------button---------*/
+button{
+	box-shadow: 0 5px 5px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	border: none;
+	text-align: center;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: auto;
+	width: 60%;
+}
+
+.button{
+	text-align: center;
+	padding: 5px 10px;
+	border-radius: 5px;
+	width: 80%;
+	color: white;
+	font-size: large;
+	background-color: green;
+	margin: 2px 10px;
+	box-sizing: content-box;
+    -webkit-font-smoothing: antialiased;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}/*---------------------close button----------*/

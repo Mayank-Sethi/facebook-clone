@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Facebook - Login or SignUp</title>
+	<link rel="icon" type="image/x-icon" href="http://assets.stickpng.com/thumbs/584ac2d03ac3a570f94a666d.png">
+	<link rel="stylesheet" type="text/css" href="Signup.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	
+<div class="row">
+	<div class="container col-lg-6 center" >
+		<div id="leftside">
+			<img src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg">
+			<br>
+			<h3>This clone is by Mayank</h3>
+		</div>
+	</div>
+
+		
+	<div class="container col-lg-6 center">
+		<div id="rightside">
+			<div id="box">
+				<form action="/action_page.php" class="form">
+					<input type="email" placeholder="Enter your Email or Phone number" class="loginname">
+					<br>
+					<input type="password" placeholder="Enter your password" class="loginname" required>
+				</form>
+				<button class="loginbtn"><span>Login</span></button>
+				<br>
+				<a href="">Forgot Password?</a>
+				<hr>
+				<div class="container">
+					<button type="button" class="createbtn" data-toggle="modal" data-target="#myModal"><span>Create new Account</span></button>
+					<!-- Modal -->
+						<div class="modal fade" id="myModal" role="dialog">
+						<div class="modal-dialog">
+							    
+						<!-- Modal content-->
+							<div class="modal-content">
+								<div class="modal-header">
+							        <h1 class="modal-title">Sign Up</h1>
+							        <button type="button" class="close" data-dismiss="modal">&times;</button>
+							    </div>
+							    <div class="modal-body">
+							        <form action="/action_page.php">
+										<input type="text" placeholder="First Name" class="name" required>
+										<input type="text" placeholder="Last Name" class="name" required>
+										<br>
+										<input type="text" placeholder="Email address or Mobile number" class="other" required>
+										<br>
+										<input type="password" placeholder="New Password" class="other" required>
+										<br>
+										
+										<label for="dob" class="titles">Date of birth</label>
+										<input type="date" name="dob" class="date" required>
+										<input type="radio" name="">
+										
+										<div class="container">
+									    
+										<label for="optradio" class="titles">Gender:</label>
+									    <div class="radio">
+									    <label class="radio-inline"><input type="radio" name="optradio">Male</label>
+									    </div>
+									    <div class="radio">
+									    <label class="radio-inline"><input type="radio" name="optradio">Female</label>
+									    </div>
+									    <div class="radio">
+									    <label class="radio-inline"><input type="radio" name="optradio">Other</label>
+									    </div>
+								</div>
+								    
+							    <div class="modal-footer">
+							        <p id="lowerterms">By clicking SignUp, you agree to our terms, Data policy and Cookie policy. You may receieve SMS notificationfrom us and opt out at any time</p>
+									<button type="submit" class="Signupbutton"><span>Sign Up</span></button>
+							</div>
+						</div>
+						</div>
+				</div>
+			</div>		
+		</div>
+	</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
